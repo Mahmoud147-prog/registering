@@ -1,0 +1,24 @@
+body{
+    background-color: #24353F;
+}
+section{
+    height: 100vh;
+}
+.container{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.container>h1{
+    color: rgb(23, 162, 184);
+}
+.container>input:focus{
+    
+    border-color: rgb(23, 162, 184) !important;
+    outline: none !important;
+}
+.container span:hover{
+    text-decoration:underline ;
+    cursor: pointer;
+}
+.green_color{
+    color: green;
+}
